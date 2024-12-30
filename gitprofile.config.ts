@@ -1,6 +1,12 @@
 // gitprofile.config.ts
 
 const CONFIG = {
+
+  seo: {
+    title: 'Portfolio of Ariful Alam',
+    description: '',
+    imageURL: '',
+  },
   github: {
     username: 'myseait', // Your GitHub org/user name. (This is the only required config)
   },
