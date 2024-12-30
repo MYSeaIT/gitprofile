@@ -1,12 +1,6 @@
 // gitprofile.config.ts
 
 const CONFIG = {
-
-  seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
-  },
   github: {
     username: 'myseait', // Your GitHub org/user name. (This is the only required config)
   },
@@ -30,19 +24,19 @@ const CONFIG = {
         },
       },
     },
+  },
+  seo: {
+    title: 'Portfolio of 3 Wishiz',
+    description: '',
+    imageURL: '',
+  },
   social: {
-    linkedin: 'Adamshaw',
+    medium: 'Adamshaw',
     dev: 'SeaIT',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
+    stackoverflow: 'Adamshawsea', // example: '1/jeff-atwood'
     website: 'https://www.3wishiz.com',
     phone: '+34 604 84 65 23',
     email: '3wishiz4u@gmail.com',
-  },
-  resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -60,8 +54,7 @@ const CONFIG = {
     'Antd',
     'Tailwind',
   ],
-
-  // Display articles from your medium or dev account. (Optional)
+ 
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -134,7 +127,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-
+  footer: `Made with <a 
+      class="text-primary"
+      target="_blank"
+      rel="noreferrer"
+    >Github</a> and ❤️`,
 
   enablePWA: true,
 };
